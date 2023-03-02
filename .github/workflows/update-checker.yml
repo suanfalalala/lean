@@ -23,7 +23,8 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-    container: node:16.16.0
+    container: node:18.14.2
+
 
     steps:
 
