@@ -14,5 +14,5 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >> feeds.conf.default
-echo 'src-git alist https://github.com/sbwml/luci-app-alist.git' >> feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld.git;main' >> feeds.conf.default
+# echo 'src-git alist https://github.com/sbwml/luci-app-alist.git' >> feeds.conf.default
